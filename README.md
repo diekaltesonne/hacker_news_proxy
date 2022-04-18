@@ -1,2 +1,7 @@
-# hacker_news_proxy
+### hacker_news_proxy
 Простой http-прокси-сервер, запускаемый локально, который показывает содержимое страниц Hacker News. Прокси модицифицирует текст на страницах следующим образом: после каждого слова из шести букв должен стоять значок «™».
+### Deploy with Docker
+Run app (use docker IP adress for ex:http://172.18.0.2:8000/):
+```
+$ docker-compose up
+```
